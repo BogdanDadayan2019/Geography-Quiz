@@ -10,7 +10,7 @@ namespace Bogdan_Dadaian_Quiz_Software
 
     public class Datenbank
     {
-        private readonly string connstr = "SERVER=localhost;UID='root';PASSWORD='';DATABASE=quiz";
+        private readonly string connstr = "SERVER=localhost;UID='root';PASSWORD='1';DATABASE=quiz";
 
         // Prüft, ob ein Spieler mit diesem Namen existiert
         public Spieler SpielerUberpruefen(string name)
